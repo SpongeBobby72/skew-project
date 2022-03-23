@@ -10,12 +10,10 @@
   <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
   <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
 
-  <meta http-equiv="Content-Security-Policy" content="
-  default-src * 'self'
-  data: gap: https://ssl.gstatic.com/ 'unsafe-eval';
-  style-src 'self' 'unsafe-inline';
-  media-src *;
-  connect-src * 'unsafe-inline'">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
 
       <!-- Referencement SEO -->
     <!-- <meta name="image" content="%PUBLIC_URL%/favicon-32x32.png"> -->
