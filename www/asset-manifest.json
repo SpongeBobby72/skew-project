@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "./static/js/main.be788cfb.js",
+    "main.js": "./static/js/main.b11667ef.js",
     "static/media/imageEmployor.png": "./static/media/imageEmployor.87dbc3e34007d87729f6.png",
     "static/media/WhyHome01.jpg": "./static/media/WhyHome01.01d005ebef5c5be446d2.jpg",
     "static/media/avatar1.jpg": "./static/media/avatar1.f203808330416881595b.jpg",
@@ -13,9 +13,9 @@
     "static/media/WhyCandidat01.jpg": "./static/media/WhyCandidat01.1f255478981ad9d0af17.jpg",
     "static/media/recruteurCard.jpg": "./static/media/recruteurCard.5b7d184367ebab3fcb64.jpg",
     "index.html": "./index.html",
-    "main.be788cfb.js.map": "./static/js/main.be788cfb.js.map"
+    "main.b11667ef.js.map": "./static/js/main.b11667ef.js.map"
   },
   "entrypoints": [
-    "static/js/main.be788cfb.js"
+    "static/js/main.b11667ef.js"
   ]
 }
