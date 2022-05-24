@@ -43,7 +43,7 @@ const IconWrapperStyle = styled("div")(({ theme }) => ({
 
 export default function ListUsers(props) {
   const { listUsers } = props;
-  console.log("avatar", listUsers);
+  // console.log("avatar", listUsers);
   // Afficher uniquement les 6 derniers users
   const SliceUsers = listUsers.slice(0, 4);
 
@@ -70,7 +70,7 @@ export default function ListUsers(props) {
                       variant="body2"
                       color="text.primary"
                     >
-                      {user.lastname || ""} {user.name || ""}
+                       {user.name}
                     </Typography>
                   </React.Fragment>
                 }

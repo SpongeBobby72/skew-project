@@ -3,9 +3,6 @@ import { styled, alpha } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import MessageIcon from '@mui/icons-material/Message';
-import Divider from '@mui/material/Divider';
-import VisibilityIcon from '@mui/icons-material/Visibility';
 import DeleteIcon from '@mui/icons-material/Delete';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import { getOffreCandidate, deleteFormProfilCandidateOffre } from "store/actions/CandidateActions";
@@ -56,7 +53,6 @@ const StyledMenu = styled((props) => (
 
 export default function CustomizedMenus(props) {
     const { id } = props
-    console.log('id Button Trigger ROW', id);
     const dispatch = useDispatch()
     const handleDelete = () => {
         dispatch(deleteFormProfilCandidateOffre(id))
@@ -95,15 +91,6 @@ export default function CustomizedMenus(props) {
                 open={open}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose} disableRipple>
-                    <VisibilityIcon />
-                    Voir L'offre
-                </MenuItem>
-                <MenuItem onClick={handleClose} disableRipple>
-                    < MessageIcon />
-                    Relancer
-                </MenuItem>
-                <Divider sx={{ my: 0.5 }} />
                 <MenuItem onClick={handleDelete} disableRipple>
                     <DeleteIcon />
                     Supprimer

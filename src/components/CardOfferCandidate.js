@@ -47,8 +47,8 @@ export default function CardOffer(props) {
         )}
         <CardMedia
           component="img"
-          // height="100"
-          image={`${urlImg + listOffer.image}`}
+          // height="140"
+          image={`${urlImg + listOffer.avatar}`}
           alt="imageEmployer"
         />
         <CardContent>
@@ -58,7 +58,7 @@ export default function CardOffer(props) {
             sx={{
               textTransform: "uppercase",
               textAlign: "center",
-              height: "auto",
+              height: 60,
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -110,7 +110,7 @@ export default function CardOffer(props) {
           <Typography
             variant="body2"
             color="text.secondary"
-            sx={{ textAlign: "center" }}
+            sx={{ textAlign: "center", mt: 1 }}
           >
             Publié il y {listOffer.dateOfferDays} jours
           </Typography>
